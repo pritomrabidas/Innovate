@@ -1,9 +1,11 @@
 import { FaStar } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa6";
+import About from "./About";
+import Service from "./Service";
 
 const Home = () => {
   return (
-    <div className="bg-gray-800 h-full w-full pt-20">
+    <div className="bg-gray-800 h-full w-full pt-20 ">
       <div className="container flex">
         <div className="w-1/2 ">
           <h2 className=" text-slate-50 w-[600px] text-6xl font-normal font-['nunitoFont'] pt-12">
@@ -13,7 +15,7 @@ const Home = () => {
             The Premium Consulting Service provides a faster way to process
             plans, register dealings and create titles.
           </p>
-          <button className="font-['popinsFont'] font-medium text-xl text-white border-2 rounded-xl px-7 py-4 drop-shadow-md hover:bg-gray-950 hover:border-gray-800">
+          <button className=" font-['popinsFont'] font-medium text-xl text-white border-2 rounded-xl px-7 py-4 drop-shadow-md hover:bg-gray-950 hover:border-gray-800">
             Learn More
           </button>
           <div className="flex justify-between">
@@ -54,7 +56,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="w-36 h-36 bg-gray-700 rounded-ss-xl pt-12">
+            <div className="w-36 h-36 bg-gray-700 rounded-ss-xl pt-10">
               <h2 className="w-20 h-20 bg-slate-400 rounded-full mx-auto justify-center flex">
                 <span className="flex m-auto justify-center items-center w-10 h-10 rounded-full bg-white animate-pulse">
                   <FaPlay />
@@ -74,6 +76,8 @@ const Home = () => {
           />
         </div>
       </div>
+      <About/>
+      <Service/>
     </div>
   );
 };

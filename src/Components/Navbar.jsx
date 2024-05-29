@@ -1,7 +1,7 @@
 
 const Navbar = () => {
   return (
-    <div className="bg-gray-900 py-2 fixed w-full shadow-md shadow-gray-800 z-20">
+    <div className="bg-gray-900 py-2 fixed w-full shadow-sm shadow-gray-800 z-20">
       <div className="container mx-auto justify-between flex">
         <div className="">
             <img src="Innovate Logo.png" alt="" />
